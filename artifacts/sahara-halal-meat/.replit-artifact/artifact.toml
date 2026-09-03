@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Sahara Halal Meat"
+description = "A polished storefront website for Sahara Halal Meat in Calgary, showcasing halal Moroccan, Latin, and Argentinian cuts with custom butcher services and visit details."
+version = "1.0.0"
+id = "artifacts/sahara-halal-meat"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21302
+
+[services.development]
+run = "pnpm --filter @workspace/sahara-halal-meat run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/sahara-halal-meat", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/sahara-halal-meat/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21302"
+BASE_PATH = "/"
