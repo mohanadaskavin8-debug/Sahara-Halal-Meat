@@ -1,45 +1,49 @@
-# [Project name]
+# Sahara Halal Meat — Business Website
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A modern, responsive website designed and developed for **Sahara Halal Meat**, a local halal butcher shop.
 
-## Run & Operate
+The website gives customers a convenient way to explore the shop's meat selection, menu items, pricing, and business information while creating a professional digital presence for the business.
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+## ✨ Features
 
-## Stack
+* 🥩 Meat and product showcase
+* 💰 Product pricing and information
+* 📋 Menu and item listings
+* 📱 Responsive design across desktop, tablet, and mobile
+* 🏪 Business information and contact details
+* 🎨 Custom UI designed around the business
+* ⚡ Clean, intuitive browsing experience
 
-- pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
+## 🎯 Project Goals
 
-## Where things live
+The goal was to build a practical digital storefront where customers can quickly:
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+* Browse available products
+* View prices and menu items
+* Learn about the business
+* Find important store information
+* Access the website easily from their phone
 
-## Architecture decisions
+The design focuses on **clarity, usability, responsive design, and a professional customer experience**.
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+## 🛠️ Tech Stack
 
-## Product
+The project was developed using modern web technologies, with the specific stack documented in the repository.
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+## 📸 Screenshots
 
-## User preferences
+*Add screenshots of the website here.*
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+## 🌐 Project Repository
 
-## Gotchas
+[View the Sahara Halal Meat GitHub Repository](https://github.com/mohanadaskavin8-debug/Sahara-Halal-Meat/tree/main?utm_source=chatgpt.com)
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+## 👨‍💻 Development
 
-## Pointers
+I designed and developed the website from concept through implementation, including the UI/UX, responsive layouts, product presentation, pricing sections, and overall digital experience.
 
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+This project was built with a focus on creating a **real-world business solution** that makes information easier for customers to find and interact with online.
+
+---
+
+**Built by Mohanadas Kavin**
